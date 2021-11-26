@@ -1,0 +1,1 @@
+ya funciona esto o nos e
