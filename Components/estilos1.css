@@ -1,31 +1,36 @@
-.body1{
+body{
     background-size: cover;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 19%, rgba(0,0,1,1) 12%, rgba(0,0,0,0) 100%, rgba(252, 252, 252, 0) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(0,0,1,1) 100%, rgba(0,0,0,100s) 100%, rgba(252, 252, 252, 0) 100%);
+    background-image:url("../Assets/imagen\ de\ fondo.jpg");
+    background-repeat: no-repeat;
+height: 100vh;
+
 }
 
 
+.mainfooter{
 
+    bottom: 0%;
+position: absolute;
+background-color: black;
+width:101% ;
+display: flex;
+justify-content: center;
 
-.div_padre3{
-    display: flex;
-}
-.div_padre2{
-    display: flex;
-    
-}
-.div_padre{
-    display: flex;
-}
-.div_padre4{
-    display: flex;
-    position:relative;
-}
-
-.texto1{
-   text-shadow: rgb(255, 255, 255);
 }
 
 
-.button2{
-    box-shadow: rgb(255, 0, 0) 0px 54px 55px, rgb(255, 1, 1) 0px -12px 30px, rgba(255, 0, 0, 0.934) 0px 4px 6px, rgb(244, 0, 0) 0px 12px 13px, rgb(247, 7, 7) 0px -3px 5px;
+.mainfooter button{
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+.mainfooter button:hover{
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid red;
+}
+.mainfooter div{
+  
+    text-align: center; width: 100%;
 }
