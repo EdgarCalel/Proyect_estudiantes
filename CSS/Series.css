@@ -1,0 +1,38 @@
+.Fondo{
+    background: url("../Assets/CasaPapelWallpaper.jpg")center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;  */   
+}
+
+.Series{
+    height: 50vh;
+}
+
+.Titulo{
+    width: 250px;
+}
+
+.Descripcion{
+    color: white;
+}
+
+.Tendencias{
+    color: white;
+}
+
+.MasSeries{
+    margin: 50px;
+}
+
+.MasSeries img{
+    width: 100%;
+    
+}
+
+.row{
+    margin:0;
+}
