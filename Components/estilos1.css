@@ -1,15 +1,31 @@
 body{
     background-size: cover;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 100%, rgba(0,0,1,1) 100%, rgba(0,0,0,100s) 100%, rgba(252, 252, 252, 0) 100%);
     background-image:url("../Assets/imagen\ de\ fondo.jpg");
     background-repeat: no-repeat;
+    background-size: linear-gradient(to right,
+    rgb(0, 5, 20) 20%,
+     rgba(0,0,0,.7) 1%, 
+     rgba(0,0,0,.4) 10%,
+     rgba(0, 0, 0, 0) 100%);   
+   
 height: 100vh;
 
+
+
+
+}
+
+.buscador{   
+}
+
+
+#mininavegador{
+    width: 125px;
+ 
 }
 
 
 .mainfooter{
-
     bottom: 0%;
 position: absolute;
 background-color: black;
@@ -17,6 +33,10 @@ width:101% ;
 display: flex;
 justify-content: center;
 
+}
+
+.buscador{
+    
 }
 
 
@@ -28,9 +48,24 @@ justify-content: center;
 .mainfooter button:hover{
     color: black;
     background-color: white;
-    border-bottom: 1px solid red;
+    border-bottom: 5px solid red;
 }
 .mainfooter div{
   
     text-align: center; width: 100%;
+}
+
+.texto1{
+    font: 150% sans-serif;
+    margin-left: 20px;
+}
+
+.texto2{
+    font: 120% sans-serif;
+    margin-left: 20px;
+}
+
+.boton_sesion{
+    position: absolute;
+    
 }
