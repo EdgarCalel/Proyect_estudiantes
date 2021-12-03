@@ -1,16 +1,15 @@
-.Fondo{
-    background: url("../Assets/CasaPapelWallpaper.jpg")center;
+body{
+    height: 100%;
+    background: url("../Assets/CasaPapelWallpaper.jpg")center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    /* display: flex;
-    justify-content: center;
-    flex-direction: column;  */   
 }
 
-.Series{
+
+/* .Series{
     height: 50vh;
-}
+} */
 
 .Titulo{
     width: 250px;
@@ -25,14 +24,30 @@
 }
 
 .MasSeries{
-    margin: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 60px;
+    margin: 0;
 }
 
-.MasSeries img{
+/* .MasSeries img{
     width: 100%;
     
+} */
+
+.carouselList{
+    height: 200px;
+    margin: 0;
+}
+.contenedorCarousel{
+    margin: 0;
 }
 
-.row{
-    margin:0;
+
+.Imagen img{
+ width: 100%;
+ height: auto;
 }
+/* .row{
+    margin:0;
+} */
