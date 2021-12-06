@@ -1,12 +1,8 @@
 window.addEventListener('load', function(){
 	new Glider(document.querySelector('.carouselList'), {
-		slidesToShow: 6,
+		slidesToShow: 12,
 		slidesToScroll: 1,
         draggable: true,
 		dots: '.Indicadores',
-		// arrows: {
-		// 	prev: '.Anterior',
-		// 	next: '.Siguiente'
-		// },
 	});
 });
