@@ -9,10 +9,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css">
+    <link rel="stylesheet" href="../CSS/estilo.css">
     <title>Document</title>
 </head>
+
+
+
+
+
 <body>
     <div class="Fondo container-fluid col-sm-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+
+            <a class="navbar-brand" style="color: red;" href="#">Netflix</a>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" style="color: white" href="#">Servicios</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: white" href="#">Peliculas</a>
+                </li>
+                <li class="nav-item dropdown " >
+          <div class="holas">
+                <select class="form-control form-control-sm"  aria-label="Default select example" >
+            <option selected>Categorias</option>
+            <option value="1">Accion</option>
+            <option value="2">Infantiles</option>
+            <option value="3">Navidad</option>
+          </select>
+          </div>
+          
+                <li class="nav-item">
+                  <a class="nav-link disabled" style="color: white;" href="#">Informacion</a>
+                </li>
+              </ul>
+              
+              <marquee behavior="" direction=""></marquee>
+                <input class="form-control sm-50" type="search"  id="mininavegador" placeholder="Busqueda..." aria-label="Buscar"> 
+            
+                <button type="button" class="btn btn-outline-light">Buscar</button>    
+            </div>
+          
+          
+          </nav>
+          
     <div class="Series p-3 align-content-start">
         <img src="../Assets/Titulo.png" class="Titulo img-fluid">
         <p class="Descripcion mt-4 mb-4 col">Ocho atracadores toman rehenes en la Fábrica <br>
@@ -42,7 +85,7 @@
         <div class="Imagen">
         <img src="../Assets/JokerP.jpg" alt="Joker">
         </div>
-        <!-- <div class="Imagen">
+        <div class="Imagen"> 
         <img src="../Assets/ProdigyP.jpg" alt="Prodigy">
         </div>
         <div class="Imagen">
@@ -139,7 +182,104 @@
 		</div>
     </div> 
 
+    <p class="texto1" style="color: white;" > <b> Las 10 más populares hoy </b>     </p>
+    <br>
+      <div class="contenedor">
+    
+        <main class="contededor_principal">
+        </main>
+        
+        <div class="carousel">
+          <div class="carousel__contenedor">
+               
+                
+    
+                  <div role="tablist" class="carousel__indicadores">  </div>
+    
+    
+                <div class="carousel__lista">
+    
+    
+                  <div class="carousel__elemento">
+                 <p class="ranking">1</p>
+                  <img  src="../Assets/1.jpg" alt="">
+                  </div>
+              
+                  
+                  <div class="carousel__elemento">
+                    <p class="ranking">2</p>
+                     <img  src="../Assets/2.jpg" alt="">
+                     </div>
+              
+                     
+                  <div class="carousel__elemento">
+                    <p class="ranking">3</p>
+                     <img  src="../Assets/3.jpg" alt="">
+                     </div>
+              
+                     
+                  <div class="carousel__elemento">
+                    <p class="ranking">4</p>
+                     <img  src="../Assets/4.jpg" alt="">
+                     </div>
+              
+                     
+                  <div class="carousel__elemento">
+                    <p class="ranking" >5</p>
+                     <img  src="../Assets/5.jpg" alt="">
+                     </div>
+                     <div class="carousel__elemento">
+                      <p class="ranking">6</p>
+                       <img  src="../Assets/6.jpg" alt="">
+                       </div>
+                
+                       
+                    <div class="carousel__elemento">
+                      <p class="ranking">7</p>
+                       <img  src="../Assets/7.jpg" alt="">
+                       </div>
+    
+                       <div class="carousel__elemento">
+                        <p class="ranking" >8</p>
+                         <img  src="../Assets/8.jpg" alt="">
+                         </div>
+                         <div class="carousel__elemento">
+                          <p class="ranking">9</p>
+                           <img  src="../Assets/9.jfif" alt="">
+                           </div>
+                    
+                           
+                        <div class="carousel__elemento">
+                          <p class="ranking">10</p>
+                           <img  src="../Assets/10.jpg" alt="">
+                           </div>
+                     </div>
+                </div>
+    
+            
+                 </div>
+    
+    
+    
+      
+      </div>
+      </div>
+    
+    
+    
+    
+    
+      <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="./carousel.js"  ></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+
+
+
     </div> 
+
+
+    
 
 <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
 <script src="../JS/Series.js"></script>

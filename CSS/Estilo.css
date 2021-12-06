@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(0, 0, 0) 
+}
+.carousel__lista{
+    display:flex;
+    height: 225px;
+}
+.carousel__lista .ranking{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 250px;
+    display: flex;
+    align-items: center;
+  margin-right: -40px;
+  margin-left: 20px;
+}
+
+.carousel__elemento{
+    display: flex;
+}
+
+.texto1{
+ font-family:Arial, Helvetica, sans-serif;
+ width: 200px;
+}
+
+/* CSS Del Carousel */
+
+.holas{
+    width: 200px;
+}
+.holas select{
+    background-color: black;
+color: white;
+}
+
+
+.holas{
+    background-color: black;
+}
