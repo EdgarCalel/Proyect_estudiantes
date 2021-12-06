@@ -45,10 +45,10 @@ body{
     margin: 0;
 } */
 
-.contenedorCarousel{
+/* .contenedorCarousel{
     margin: 0;
     position: unset;
-}
+} */
 
 
 .Imagen img{
@@ -58,3 +58,7 @@ body{
 /* .row{
     margin:0;
 } */
+
+.MasSeries{
+    height: auto;
+}
